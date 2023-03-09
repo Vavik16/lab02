@@ -1,9 +1,8 @@
 #include <iostream>
 
-using namespace std;
 int main() {
-    string name;
-    getline(std::cin, name);
-    cout << "Hello world from @" << name << endl;
+    std::string name; //variable with name of person
+    std::getline(std::cin, name); //enter of name
+    std::cout << "Hello world from @" << name << std::endl; // Hello world from @name
     return 0;
 }
